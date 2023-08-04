@@ -77,6 +77,24 @@ Alternatively, you can use the provided `setup.py` script to install the require
 python setup.py
 ```
 
+Put your custom Github Token in order to access to your custom repo :
+
+```bash
+self.GITHUB_TOKEN = "" # Add you own Github token (settings => at the bottom "Developer Settings" then personal access token)
+```
+
+Once done, add your OpenAI API Key :
+
+```bash
+# Your openAI API Key
+openai.api_key = ""
+```
+
+Then you will need to add your repo name `author/repo_name`
+```bash
+repository_name = "devmalcolm/gitpullbot" # Modify with your user/repo_name 
+```
+
 ### :rocket: Running GitPullBot
 
 Congratulations! You've successfully set up the project on your machine. You're now ready to run the `GitPullBot.py` script.
