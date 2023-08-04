@@ -31,11 +31,6 @@ The GitHub Pull Request Code Review Bot is a tool that utilizes the ChatGPT API 
 The main goal of this project is to enhance the efficiency and effectiveness of code review processes by automating certain aspects. The bot aims to assist developers by quickly identifying and flagging potential problems in code changes, thereby improving code quality and reducing manual review efforts.
 </p>
 
-<p align="center">
-  <b>Tailsploit Framework<a href="https://github.com/your-username/your-repo"> Documentation</a></b>
-</p>
-<br>
-
 
 
 
