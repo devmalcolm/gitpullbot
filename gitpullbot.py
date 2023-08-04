@@ -94,7 +94,7 @@ def GitPullBotThread(repository_name):
     print(f"[{Fore.GREEN}*{Style.RESET_ALL}] Starting {Fore.GREEN}GitPullBot{Style.RESET_ALL} GitHub Integration...")
     time.sleep(2)
     x = GitPullBot()
-    GitPullBot_Timeout_Checking = 15 # Frequency bot will check for new pull requests, by default i set it to 15 minutes. Feel free to change it (Minimum: 15s)
+    GitPullBot_Timeout_Checking = 60 * 15 # Frequency bot will check for new pull requests, by default i set it to 15 minutes. Feel free to change it (Minimum: 15s)
     print(f"[{Fore.GREEN}*{Style.RESET_ALL}] GitPullBot Started.\n\n")
     print("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
     print("┃                 GitPullBot Log               ┃")                   
