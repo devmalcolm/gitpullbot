@@ -32,5 +32,8 @@ The main goal of this project is to enhance the efficiency and effectiveness of 
 </p>
 
 
+### How it might look like (Preview)
+This preview has been generated with the default prompt in the script, feel free to modify at you own / needs.
+![Logo](https://gcdnb.pbrd.co/images/G9Fu26H43kfu.png?o=1)
 
 
