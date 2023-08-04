@@ -36,4 +36,55 @@ The main goal of this project is to enhance the efficiency and effectiveness of 
 This preview has been generated with the default prompt in the script, feel free to modify at you own / needs.
 ![Logo](https://gcdnb.pbrd.co/images/G9Fu26H43kfu.png?o=1)
 
+## Prerequisites
+
+Before you begin, make sure you have the following prerequisites in place:
+
+<b>Python 3.7+</b>: This project requires Python 3.7 or later. You can download Python from the official Python website.
+
+<b>Operating System</b>: This project is supported on Linux, MacOS, and Windows operating systems.
+
+Make sure you have Python installed and accessible from the command line. You can check the installed version of Python by running:
+
+```bash
+python --version
+```
+
+Ensure that the command above returns a version number of 3.7 or higher.
+
+Please note that specific steps for setting up Python might vary based on your operating system. If you encounter any issues during installation, refer to the official Python documentation for guidance.
+
+
+
+
+## Installation
+
+To get started, you need to clone the project repository to your local machine:
+
+```bash
+git clone https://github.com/devmalcolm/gitpullbot.git
+```
+
+Before running the bot, you need to install the required Python packages. You can do this using `pip` and the `requirements.txt` file provided:
+
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, you can use the provided `setup.py` script to install the required modules one by one. Run the following command in the project directory:
+
+```bash
+python setup.py
+```
+
+### :rocket: Running GitPullBot
+
+Congratulations! You've successfully set up the project on your machine. You're now ready to run the `GitPullBot.py` script.
+
+To start the script, navigate to the project directory in your terminal and run the following command:
+
+```bash
+python gitpullbot.py
+```
+
 
