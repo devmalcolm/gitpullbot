@@ -53,7 +53,7 @@ class GitPullBot:
                     {"role": "system", "content": GitPullBotPrompt},
                     {"role": "user", "content": AICodeSnippet}
                 ],
-                # Max tokem, the more you got, the more you consume data
+                # Max token, the more you got, the more you consume data
                 max_tokens=250
             )
             generated_comment = response.choices[0].message["content"].strip()
